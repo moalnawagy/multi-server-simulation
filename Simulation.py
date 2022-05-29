@@ -1,5 +1,5 @@
 from pythonds.basic import Queue
-
+# Made by mohamed Alnawagy
 class Person:
     def __init__(self, experience):
         self.experience = experience
@@ -28,7 +28,7 @@ class Person:
         return self.idleTime
     
 import random
-
+# Made by mohamed Alnawagy
 class Customer:
     def __init__(self, Time, ServiceTime):
         self.ArrivalTime = Time
@@ -45,7 +45,7 @@ class Customer:
 
 arrivalTimes = [0, 2, 6, 10, 12, 14]
 serviceTime = [5, 3, 3, 5, 6, 3]
-
+# Made by mohamed Alnawagy
 def SimulateMultiServer(WorkingTime):
 
     Able = Person(2)
@@ -97,7 +97,7 @@ def SimulateMultiServer(WorkingTime):
     print("Average Waiting Time", AvgWait, "min")
     print("Average time customer spends in the system:", AvgSpendInSystem, "min")
     print("Throughput: ", Throughput, "cust/min")
-
+# Made by mohamed Alnawagy
 def SimulateSingleServer(WorkingTime):
 
     Able = Person(2)
@@ -146,5 +146,5 @@ print("**************************************")
 print("Single Server Simulation Results")
 
 SimulateSingleServer(25)
-
+# Made by mohamed Alnawagy
     
